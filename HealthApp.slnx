@@ -1,2 +1,7 @@
 <Solution>
+  <Project Path="HealthApp.Api/HealthApp.Api.csproj" />
+  <Project Path="HealthApp.Application/HealthApp.Application.csproj" />
+  <Project Path="HealthApp.Domain/HealthApp.Domain.csproj" />
+  <Project Path="HealthApp.Infrastructure/HealthApp.Infrastructure.csproj" />
+  <Project Path="HealthApp.Worker/HealthApp.Worker.csproj" />
 </Solution>
