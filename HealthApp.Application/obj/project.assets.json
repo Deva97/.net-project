@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net10.0": {}
+    "net10.0": {
+      "HealthApp.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "compile": {
+          "bin/placeholder/HealthApp.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/HealthApp.Domain.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "HealthApp.Domain/1.0.0": {
+      "type": "project",
+      "path": "../HealthApp.Domain/HealthApp.Domain.csproj",
+      "msbuildProject": "../HealthApp.Domain/HealthApp.Domain.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net10.0": []
+    "net10.0": [
+      "HealthApp.Domain >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\seema\\.nuget\\packages\\": {},
@@ -38,7 +57,11 @@
       "frameworks": {
         "net10.0": {
           "targetAlias": "net10.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\seema\\source\\repos\\.net project\\HealthApp.Domain\\HealthApp.Domain.csproj": {
+              "projectPath": "C:\\Users\\seema\\source\\repos\\.net project\\HealthApp.Domain\\HealthApp.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -72,7 +95,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.101/PortableRuntimeIdentifierGraph.json",
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.102/PortableRuntimeIdentifierGraph.json",
         "packagesToPrune": {
           "Microsoft.CSharp": "(,4.7.32767]",
           "Microsoft.VisualBasic": "(,10.4.32767]",

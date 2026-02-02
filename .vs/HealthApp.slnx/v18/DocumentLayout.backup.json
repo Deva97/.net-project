@@ -3,8 +3,68 @@
   "WorkspaceRootPath": "C:\\Users\\seema\\source\\repos\\.net project\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A06F5920-E625-F8D2-47FB-7365F7808043}|HealthApp.Infrastructure\\HealthApp.Infrastructure.csproj|c:\\users\\seema\\source\\repos\\.net project\\healthapp.infrastructure\\healthapp.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A06F5920-E625-F8D2-47FB-7365F7808043}|HealthApp.Infrastructure\\HealthApp.Infrastructure.csproj|solutionrelative:healthapp.infrastructure\\healthapp.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A06F5920-E625-F8D2-47FB-7365F7808043}|HealthApp.Infrastructure\\HealthApp.Infrastructure.csproj|c:\\users\\seema\\source\\repos\\.net project\\healthapp.infrastructure\\persistence\\healthappdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A06F5920-E625-F8D2-47FB-7365F7808043}|HealthApp.Infrastructure\\HealthApp.Infrastructure.csproj|solutionrelative:healthapp.infrastructure\\persistence\\healthappdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A06F5920-E625-F8D2-47FB-7365F7808043}|HealthApp.Infrastructure\\HealthApp.Infrastructure.csproj|c:\\users\\seema\\source\\repos\\.net project\\healthapp.infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A06F5920-E625-F8D2-47FB-7365F7808043}|HealthApp.Infrastructure\\HealthApp.Infrastructure.csproj|solutionrelative:healthapp.infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61AE5345-4AA8-55D4-0602-D9F2D3B2EAE7}|HealthApp.Api\\HealthApp.Api.csproj|c:\\users\\seema\\source\\repos\\.net project\\healthapp.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{61AE5345-4AA8-55D4-0602-D9F2D3B2EAE7}|HealthApp.Api\\HealthApp.Api.csproj|solutionrelative:healthapp.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61AE5345-4AA8-55D4-0602-D9F2D3B2EAE7}|HealthApp.Api\\HealthApp.Api.csproj|c:\\users\\seema\\source\\repos\\.net project\\healthapp.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{61AE5345-4AA8-55D4-0602-D9F2D3B2EAE7}|HealthApp.Api\\HealthApp.Api.csproj|solutionrelative:healthapp.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61AE5345-4AA8-55D4-0602-D9F2D3B2EAE7}|HealthApp.Api\\HealthApp.Api.csproj|c:\\users\\seema\\source\\repos\\.net project\\healthapp.api\\middleware\\httpheadermiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{61AE5345-4AA8-55D4-0602-D9F2D3B2EAE7}|HealthApp.Api\\HealthApp.Api.csproj|solutionrelative:healthapp.api\\middleware\\httpheadermiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5A2B446-B3A2-333B-CAC9-15A8D7775C24}|HealthApp.Domain\\HealthApp.Domain.csproj|c:\\users\\seema\\source\\repos\\.net project\\healthapp.domain\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5A2B446-B3A2-333B-CAC9-15A8D7775C24}|HealthApp.Domain\\HealthApp.Domain.csproj|solutionrelative:healthapp.domain\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{61AE5345-4AA8-55D4-0602-D9F2D3B2EAE7}|HealthApp.Api\\HealthApp.Api.csproj|c:\\users\\seema\\source\\repos\\.net project\\healthapp.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{61AE5345-4AA8-55D4-0602-D9F2D3B2EAE7}|HealthApp.Api\\HealthApp.Api.csproj|solutionrelative:healthapp.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5A2B446-B3A2-333B-CAC9-15A8D7775C24}|HealthApp.Domain\\HealthApp.Domain.csproj|c:\\users\\seema\\source\\repos\\.net project\\healthapp.domain\\entities\\food.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5A2B446-B3A2-333B-CAC9-15A8D7775C24}|HealthApp.Domain\\HealthApp.Domain.csproj|solutionrelative:healthapp.domain\\entities\\food.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5A2B446-B3A2-333B-CAC9-15A8D7775C24}|HealthApp.Domain\\HealthApp.Domain.csproj|c:\\users\\seema\\source\\repos\\.net project\\healthapp.domain\\healthapp.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{C5A2B446-B3A2-333B-CAC9-15A8D7775C24}|HealthApp.Domain\\HealthApp.Domain.csproj|solutionrelative:healthapp.domain\\healthapp.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61AE5345-4AA8-55D4-0602-D9F2D3B2EAE7}|HealthApp.Api\\HealthApp.Api.csproj|c:\\users\\seema\\source\\repos\\.net project\\healthapp.api\\healthapp.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{61AE5345-4AA8-55D4-0602-D9F2D3B2EAE7}|HealthApp.Api\\HealthApp.Api.csproj|solutionrelative:healthapp.api\\healthapp.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{134AB38F-9162-ACF9-3469-B578F3188F63}|HealthApp.Worker\\HealthApp.Worker.csproj|c:\\users\\seema\\source\\repos\\.net project\\healthapp.worker\\worker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{134AB38F-9162-ACF9-3469-B578F3188F63}|HealthApp.Worker\\HealthApp.Worker.csproj|solutionrelative:healthapp.worker\\worker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{134AB38F-9162-ACF9-3469-B578F3188F63}|HealthApp.Worker\\HealthApp.Worker.csproj|c:\\users\\seema\\source\\repos\\.net project\\healthapp.worker\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{134AB38F-9162-ACF9-3469-B578F3188F63}|HealthApp.Worker\\HealthApp.Worker.csproj|solutionrelative:healthapp.worker\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61AE5345-4AA8-55D4-0602-D9F2D3B2EAE7}|HealthApp.Api\\HealthApp.Api.csproj|c:\\users\\seema\\source\\repos\\.net project\\healthapp.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{61AE5345-4AA8-55D4-0602-D9F2D3B2EAE7}|HealthApp.Api\\HealthApp.Api.csproj|solutionrelative:healthapp.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97F9D935-A1B7-B3BD-C6C3-8C175B492D7C}|HealthApp.Application\\HealthApp.Application.csproj|c:\\users\\seema\\source\\repos\\.net project\\healthapp.application\\healthapp.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{97F9D935-A1B7-B3BD-C6C3-8C175B492D7C}|HealthApp.Application\\HealthApp.Application.csproj|solutionrelative:healthapp.application\\healthapp.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61AE5345-4AA8-55D4-0602-D9F2D3B2EAE7}|HealthApp.Api\\HealthApp.Api.csproj|c:\\users\\seema\\source\\repos\\.net project\\healthapp.api\\healthapp.api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{61AE5345-4AA8-55D4-0602-D9F2D3B2EAE7}|HealthApp.Api\\HealthApp.Api.csproj|solutionrelative:healthapp.api\\healthapp.api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\seema\\source\\repos\\.net project\\HealthApp.Application\\obj\\Debug\\net10.0\\.NETCoreApp,Version=v10.0.AssemblyAttributes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -22,11 +82,219 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "C:\\Users\\seema\\source\\repos\\.net project\\HealthApp.Infrastructure\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "HealthApp.Infrastructure\\DependencyInjection.cs",
+              "ToolTip": "C:\\Users\\seema\\source\\repos\\.net project\\HealthApp.Infrastructure\\DependencyInjection.cs",
+              "RelativeToolTip": "HealthApp.Infrastructure\\DependencyInjection.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABEAAABUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-31T15:23:33.186Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HealthAppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\seema\\source\\repos\\.net project\\HealthApp.Infrastructure\\Persistence\\HealthAppDbContext.cs",
+              "RelativeDocumentMoniker": "HealthApp.Infrastructure\\Persistence\\HealthAppDbContext.cs",
+              "ToolTip": "C:\\Users\\seema\\source\\repos\\.net project\\HealthApp.Infrastructure\\Persistence\\HealthAppDbContext.cs",
+              "RelativeToolTip": "HealthApp.Infrastructure\\Persistence\\HealthAppDbContext.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAxwBIAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-31T07:38:34.342Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\seema\\source\\repos\\.net project\\HealthApp.Api\\appsettings.json",
+              "RelativeDocumentMoniker": "HealthApp.Api\\appsettings.json",
+              "ToolTip": "C:\\Users\\seema\\source\\repos\\.net project\\HealthApp.Api\\appsettings.json",
+              "RelativeToolTip": "HealthApp.Api\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-01-30T09:22:21.985Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HealthApp.Infrastructure",
+              "DocumentMoniker": "C:\\Users\\seema\\source\\repos\\.net project\\HealthApp.Infrastructure\\HealthApp.Infrastructure.csproj",
+              "RelativeDocumentMoniker": "HealthApp.Infrastructure\\HealthApp.Infrastructure.csproj",
+              "ToolTip": "C:\\Users\\seema\\source\\repos\\.net project\\HealthApp.Infrastructure\\HealthApp.Infrastructure.csproj*",
+              "RelativeToolTip": "HealthApp.Infrastructure\\HealthApp.Infrastructure.csproj*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-01-31T07:37:34.72Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "HttpHeaderMiddleware.cs",
+              "DocumentMoniker": "C:\\Users\\seema\\source\\repos\\.net project\\HealthApp.Api\\Middleware\\HttpHeaderMiddleware.cs",
+              "RelativeDocumentMoniker": "HealthApp.Api\\Middleware\\HttpHeaderMiddleware.cs",
+              "ToolTip": "C:\\Users\\seema\\source\\repos\\.net project\\HealthApp.Api\\Middleware\\HttpHeaderMiddleware.cs",
+              "RelativeToolTip": "HealthApp.Api\\Middleware\\HttpHeaderMiddleware.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAQwAIAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-30T17:46:35.114Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\seema\\source\\repos\\.net project\\HealthApp.Domain\\Class1.cs",
+              "RelativeDocumentMoniker": "HealthApp.Domain\\Class1.cs",
+              "ToolTip": "C:\\Users\\seema\\source\\repos\\.net project\\HealthApp.Domain\\Class1.cs",
+              "RelativeToolTip": "HealthApp.Domain\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-31T16:13:40.14Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\seema\\source\\repos\\.net project\\HealthApp.Api\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "HealthApp.Api\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\seema\\source\\repos\\.net project\\HealthApp.Api\\appsettings.Development.json",
+              "RelativeToolTip": "HealthApp.Api\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-01-30T09:23:18.915Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Food.cs",
+              "DocumentMoniker": "C:\\Users\\seema\\source\\repos\\.net project\\HealthApp.Domain\\Entities\\Food.cs",
+              "RelativeDocumentMoniker": "HealthApp.Domain\\Entities\\Food.cs",
+              "ToolTip": "C:\\Users\\seema\\source\\repos\\.net project\\HealthApp.Domain\\Entities\\Food.cs",
+              "RelativeToolTip": "HealthApp.Domain\\Entities\\Food.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABoAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-31T07:36:19.09Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\seema\\source\\repos\\.net project\\HealthApp.Api\\Program.cs",
+              "RelativeDocumentMoniker": "HealthApp.Api\\Program.cs",
+              "ToolTip": "C:\\Users\\seema\\source\\repos\\.net project\\HealthApp.Api\\Program.cs",
+              "RelativeToolTip": "HealthApp.Api\\Program.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-29T17:23:37.431Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "HealthApp.Domain",
+              "DocumentMoniker": "C:\\Users\\seema\\source\\repos\\.net project\\HealthApp.Domain\\HealthApp.Domain.csproj",
+              "RelativeDocumentMoniker": "HealthApp.Domain\\HealthApp.Domain.csproj",
+              "ToolTip": "C:\\Users\\seema\\source\\repos\\.net project\\HealthApp.Domain\\HealthApp.Domain.csproj",
+              "RelativeToolTip": "HealthApp.Domain\\HealthApp.Domain.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-01-31T07:35:11.091Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "HealthApp.Api",
+              "DocumentMoniker": "C:\\Users\\seema\\source\\repos\\.net project\\HealthApp.Api\\HealthApp.Api.csproj",
+              "RelativeDocumentMoniker": "HealthApp.Api\\HealthApp.Api.csproj",
+              "ToolTip": "C:\\Users\\seema\\source\\repos\\.net project\\HealthApp.Api\\HealthApp.Api.csproj*",
+              "RelativeToolTip": "HealthApp.Api\\HealthApp.Api.csproj*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-01-31T06:57:14.588Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Worker.cs",
+              "DocumentMoniker": "C:\\Users\\seema\\source\\repos\\.net project\\HealthApp.Worker\\Worker.cs",
+              "RelativeDocumentMoniker": "HealthApp.Worker\\Worker.cs",
+              "ToolTip": "C:\\Users\\seema\\source\\repos\\.net project\\HealthApp.Worker\\Worker.cs",
+              "RelativeToolTip": "HealthApp.Worker\\Worker.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-30T15:02:26.409Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\seema\\source\\repos\\.net project\\HealthApp.Worker\\Program.cs",
+              "RelativeDocumentMoniker": "HealthApp.Worker\\Program.cs",
+              "ToolTip": "C:\\Users\\seema\\source\\repos\\.net project\\HealthApp.Worker\\Program.cs",
+              "RelativeToolTip": "HealthApp.Worker\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-30T15:02:04.83Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "HealthApp.Application.csproj",
+              "DocumentMoniker": "C:\\Users\\seema\\source\\repos\\.net project\\HealthApp.Application\\HealthApp.Application.csproj",
+              "RelativeDocumentMoniker": "HealthApp.Application\\HealthApp.Application.csproj",
+              "ToolTip": "C:\\Users\\seema\\source\\repos\\.net project\\HealthApp.Application\\HealthApp.Application.csproj",
+              "RelativeToolTip": "HealthApp.Application\\HealthApp.Application.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-01-30T09:24:29.927Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "HealthApp.Api.http",
+              "DocumentMoniker": "C:\\Users\\seema\\source\\repos\\.net project\\HealthApp.Api\\HealthApp.Api.http",
+              "RelativeDocumentMoniker": "HealthApp.Api\\HealthApp.Api.http",
+              "ToolTip": "C:\\Users\\seema\\source\\repos\\.net project\\HealthApp.Api\\HealthApp.Api.http",
+              "RelativeToolTip": "HealthApp.Api\\HealthApp.Api.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2026-01-30T09:24:24.316Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\seema\\source\\repos\\.net project\\HealthApp.Api\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "HealthApp.Api\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\seema\\source\\repos\\.net project\\HealthApp.Api\\Properties\\launchSettings.json",
+              "RelativeToolTip": "HealthApp.Api\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-01-30T09:24:39.568Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
               "Title": "HealthApp.Application.GeneratedMSBuildEditorConfig.editorconfig",
               "DocumentMoniker": "C:\\Users\\seema\\source\\repos\\.net project\\HealthApp.Application\\obj\\Debug\\net10.0\\HealthApp.Application.GeneratedMSBuildEditorConfig.editorconfig",
               "RelativeDocumentMoniker": "HealthApp.Application\\obj\\Debug\\net10.0\\HealthApp.Application.GeneratedMSBuildEditorConfig.editorconfig",
@@ -39,7 +307,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 16,
               "Title": ".NETCoreApp,Version=v10.0.AssemblyAttributes.cs",
               "DocumentMoniker": "C:\\Users\\seema\\source\\repos\\.net project\\HealthApp.Application\\obj\\Debug\\net10.0\\.NETCoreApp,Version=v10.0.AssemblyAttributes.cs",
               "RelativeDocumentMoniker": "HealthApp.Application\\obj\\Debug\\net10.0\\.NETCoreApp,Version=v10.0.AssemblyAttributes.cs",
@@ -48,19 +316,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-29T17:27:08.666Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\seema\\source\\repos\\.net project\\HealthApp.Api\\Program.cs",
-              "RelativeDocumentMoniker": "HealthApp.Api\\Program.cs",
-              "ToolTip": "C:\\Users\\seema\\source\\repos\\.net project\\HealthApp.Api\\Program.cs",
-              "RelativeToolTip": "HealthApp.Api\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-29T17:23:37.431Z",
               "EditorCaption": ""
             }
           ]

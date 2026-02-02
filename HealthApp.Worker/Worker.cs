@@ -12,5 +12,9 @@ public class Worker(ILogger<Worker> logger) : BackgroundService
             }
             await Task.Delay(1000, stoppingToken);
         }
+
+        Console.WriteLine("Worker received shutdown signal");
     }
+
+
 }
