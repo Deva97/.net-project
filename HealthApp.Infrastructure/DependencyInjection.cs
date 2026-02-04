@@ -6,6 +6,9 @@ using System.Text;
 using HealthApp.Infrastructure.Persistence;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
+using MediatR;
+using System.Reflection;
+using HealthApp.Application.Common.Interfaces;
 
 namespace HealthApp.Infrastructure
 {
@@ -19,6 +22,15 @@ namespace HealthApp.Infrastructure
             });
 
             return services;
+        }
+
+        public static IServiceCollection AddApplication(this IServiceCollection service)
+        {
+            service.AddMediatR(cfg => cfg.RegisterServicesFromAssembly(typeof(DependencyInjection).Assembly));
+
+            service.AddScoped<IApplicationDbContext>(provider => provider.GetRequiredService<HealthAppDbContext>());
+
+            return service;
         }
     }
 }

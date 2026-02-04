@@ -17,6 +17,10 @@ builder.Services.AddSwaggerGen();
 
 builder.Services.AddInfrastructure(builder.Configuration);
 
+builder.Services.AddApplication(); 
+
+
+
 builder.Host.ConfigureHostOptions(option =>
 {
     option.ShutdownTimeout = TimeSpan.FromSeconds(5);

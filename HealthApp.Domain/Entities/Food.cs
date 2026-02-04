@@ -9,7 +9,7 @@ namespace HealthApp.Domain.Entities
     {
         [Required]
         [Key]
-        public int Id { get; set; }
+        public Guid Id { get; set; }
 
         public string Name { get; set; } = null!;
 

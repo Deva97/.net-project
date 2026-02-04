@@ -13,6 +13,7 @@
         {
             context.Response.Headers["X-App-Name"] = "HealthApp";
             context.Response.Headers["Cache-Control"] = "no-store";
+            context.Response.Headers["Accept"] = "application/json";
 
             await _next(context);
 
