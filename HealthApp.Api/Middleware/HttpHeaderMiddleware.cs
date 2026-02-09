@@ -9,15 +9,19 @@
             _next = next;
         }
 
-        public async Task InvokeTask(HttpContext context)
+        public async Task InvokeAsync(HttpContext context)
         {
+            
+
+            
             context.Response.Headers["X-App-Name"] = "HealthApp";
             context.Response.Headers["Cache-Control"] = "no-store";
-            context.Response.Headers["Accept"] = "application/json";
+            context.Response.Headers.Accept = "application/json";
 
-            await _next(context);
+            await _next.Invoke(context);
 
+            return;
         }
-        
+
     }
 }

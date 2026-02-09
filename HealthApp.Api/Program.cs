@@ -1,13 +1,18 @@
 using HealthApp.Api.Middleware;
+using HealthApp.Application.Common.Interfaces;
+using HealthApp.Domain.Entities;
 using HealthApp.Infrastructure;
+using HealthApp.Infrastructure.Persistence;
 using Microsoft.AspNetCore.Builder;
+using Microsoft.AspNetCore.Http.HttpResults;
+using Microsoft.Extensions.Diagnostics.HealthChecks;
+using System.Net;
 
 var builder = WebApplication.CreateBuilder(args);
 
 
 
 builder.Configuration.AddJsonFile("appsettings.json", optional: false)
-    .AddJsonFile($"appsettings.{builder.Environment.EnvironmentName}.json", optional: true)
     .AddEnvironmentVariables();
 
 //before build
@@ -17,7 +22,7 @@ builder.Services.AddSwaggerGen();
 
 builder.Services.AddInfrastructure(builder.Configuration);
 
-builder.Services.AddApplication(); 
+builder.Services.AddApplication();
 
 
 
@@ -68,12 +73,50 @@ else
     app.UseHsts();
 }
 
-    app.UseHttpsRedirection();
+app.UseHttpsRedirection();
 
 var summaries = new[]
 {
     "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
 };
+
+var food = app.MapGroup("/Food").AddEndpointFilter(async (context,next) =>
+{
+    Console.WriteLine("Food endpoint called");
+    return await next(context);
+});
+
+food.MapGet("/{id:int}", Results<Ok<Food>, NotFound> (int id) =>
+{
+    if (id > 0)
+        return TypedResults.Ok(new Food()
+        {
+            Id = new Guid(),
+            Name = "temp"
+
+        });
+    else return TypedResults.NotFound();
+});
+
+
+food.MapPost("/{id:int}", Results<Ok<Food>, InternalServerError> (int id) =>
+{
+    if (id > 0)
+        return TypedResults.Ok(new Food()
+        {
+            Id = new Guid(),
+            Name = "temp"
+
+        });
+    else return TypedResults.InternalServerError();
+});
+
+
+
+
+// this produce tells me hey I this api can return 200OK with Food
+
+// we do this beofre the app is running and listening to the ports and reuqest
 
 app.MapGet("/weatherforecast", () =>
 {
