@@ -6,7 +6,12 @@ using HealthApp.Infrastructure.Persistence;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.Extensions.Diagnostics.HealthChecks;
+using Microsoft.Extensions.Hosting;
 using System.Net;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.IdentityModel.Tokens;
+using HealthApp.Application.Common;
+using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -23,6 +28,52 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddInfrastructure(builder.Configuration);
 
 builder.Services.AddApplication();
+
+
+
+builder.Services.Configure<DBConfigurationClass>(
+    builder.Configuration.GetSection(DBConfigurationClass.SectionName));
+
+var jwtSection = builder.Configuration.GetSection(JwtOptions.SectionName);
+
+builder.Services.Configure<JwtOptions>(jwtSection);
+
+var jwtOptions = jwtSection.Get<JwtOptions>();
+
+builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
+    .AddJwtBearer(options =>
+    {
+        options.TokenValidationParameters = new TokenValidationParameters
+        {
+            ValidateIssuer = true,
+            ValidateAudience = true,
+            ValidateLifetime = true,
+            ValidateIssuerSigningKey = true,
+
+            ValidIssuer = jwtOptions.Issuer,
+            ValidAudience = jwtOptions.Audience,
+            IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(jwtOptions.SecretKey))
+        };
+
+    });
+
+builder.Services.AddAuthorization();
+
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowFrontend",
+        policy =>
+        {
+            policy.WithOrigins("http://localhost:3000")
+                  .AllowAnyHeader()
+                  .AllowAnyMethod();
+        });
+});
+
+
+
+
+
 
 
 
@@ -73,12 +124,61 @@ else
     app.UseHsts();
 }
 
-app.UseHttpsRedirection();
+app.UseRouting();
+
+//app.UseHttpsRedirection();
+
+app.UseCors("AllowFrontend");
+
+
+app.UseAuthentication();
+
+
+app.UseAuthorization();
+
+app.MapControllers();
 
 var summaries = new[]
 {
     "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
 };
+
+
+app.Map("/health", healthContext =>
+{
+    healthContext.Run(async context =>
+    {
+        context.Response.ContentType = "application/json";
+        await context.Response.WriteAsync("{\"status\":\"Healthy\"}");
+    });
+});
+
+app.Map("/Food", admin =>
+{
+    admin.Use(async (context, next) =>
+    {
+        Console.WriteLine("admin before next");
+
+        await next();
+
+        Console.WriteLine("admin after next");
+    });
+
+    admin.Use(async (context, next) =>
+    {
+        Console.WriteLine("admin 2 before next");
+
+        await next();
+
+        Console.WriteLine("admin 2 after next");
+    });
+
+    admin.Run(async context =>
+    {
+        await context.Response.WriteAsync("Admin area");
+    });
+});
+
 
 var food = app.MapGroup("/Food").AddEndpointFilter(async (context,next) =>
 {

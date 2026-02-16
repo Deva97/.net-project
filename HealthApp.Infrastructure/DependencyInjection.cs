@@ -9,6 +9,9 @@ using Microsoft.Extensions.Configuration;
 using MediatR;
 using System.Reflection;
 using HealthApp.Application.Common.Interfaces;
+using HealthApp.Domain.Entities;
+using HealthApp.Application.Command;
+using HealthApp.Infrastructure.Services;
 
 namespace HealthApp.Infrastructure
 {
@@ -28,7 +31,18 @@ namespace HealthApp.Infrastructure
         {
             service.AddMediatR(cfg => cfg.RegisterServicesFromAssembly(typeof(DependencyInjection).Assembly));
 
+            service.AddAutoMapper(option =>
+            {
+                option.CreateMap<Food, AddFoodMacros.Request>();
+            });
+
             service.AddScoped<IApplicationDbContext>(provider => provider.GetRequiredService<HealthAppDbContext>());
+             
+            service.AddScoped<IFoodRepository>(provider => provider.GetRequiredService<FoodRepository>());
+
+            service.AddScoped<TokenService>();
+            service.AddScoped<ITokenService, TokenService>();
+            service.AddTransient<ITokenService, TokenService>();
 
             return service;
         }

@@ -25,5 +25,7 @@ namespace HealthApp.Domain.Entities
 
         [Range(0,100)]
         public int BioAvailibility { get; set; }
+
+
     }
 }
